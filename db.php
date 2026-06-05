@@ -6,7 +6,7 @@ $pass = "";
 $dbname = "user_auth";
 
 $conn = mysqli_connect($host, $user, $pass, $dbname);
-
+// Test GitHub update
 if(!$conn){
     die("Connection Failed: ".mysqli_connect_error());
 }
