@@ -9,7 +9,7 @@ if(isset($_POST['login']))
 {
     $email = mysqli_real_escape_string($conn,$_POST['email']);
     $password = $_POST['password'];
-    // Hi im mohit
+
     $query = mysqli_query($conn,
     "SELECT * FROM users WHERE email='$email'");
 
@@ -86,7 +86,7 @@ if(isset($_POST['login']))
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<p>mohittt</p>
+
 </head>
 <body>
 
@@ -210,7 +210,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
                 <i class="fa-brands fa-google"></i>
 
-                Continue with Google
+                Continue with Mohitttt
 
             </button>
 
